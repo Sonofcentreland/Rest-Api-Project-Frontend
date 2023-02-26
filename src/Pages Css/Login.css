@@ -1,0 +1,93 @@
+.LoginBody *{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.LoginBody{
+    min-height: 100vh;
+    min-width: 100%;
+    height: fit-content;
+    width: fit-content;
+}
+.LoginBox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 35em;
+    width: 23em;
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.671);
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LoginContent{
+    height: 98%;
+    width: 98%;
+    border-radius: 5px;
+}
+.LoginTitle{
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-bottom: 25px;
+    width: 90%;
+    min-height: 12vh;
+}
+.LoginTitle p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(65, 61, 61);
+}
+.LoginTitle h2{
+    font-family: 'Nabla', cursive;
+    font-size: 38px;
+    margin: 10px;
+}
+.LoginInputs{
+    width: 88%;
+    height: 34px;
+    padding-bottom: 15px;
+    margin: auto;
+    border-radius: 3px;
+}
+.LoginInputs input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.02);
+    text-align: left;
+    text-indent: 10px;
+    color: black;
+}
+.LoginInputs input:focus{
+    outline: none;
+    background-color: transparent;
+}
+.LoginInputs input::placeholder{
+    text-indent: 10px;
+    color: rgb(49, 47, 47);
+}
+.LoginButton{
+    width: 88%;
+    margin: auto;
+    background-color: rgb(212, 0, 255);
+    border-radius: 4px;
+}
+.LoginButton button{
+    width: 100%;
+    height: 34px;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
+.LoginButton button:hover{
+    background-color: transparent;
+    border: none;
+}
